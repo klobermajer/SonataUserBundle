@@ -57,8 +57,8 @@ class ProfileFOSUser1Controller extends Controller
             throw new AccessDeniedException('This user does not have access to this section.');
         }
 
-        $form = $this->container->get('sonata.user.authentication.form');
-        $formHandler = $this->container->get('sonata.user.authentication.form_handler');
+        $form = $this->container->get('fos_user.profile.form');
+        $formHandler = $this->container->get('fos_user.profile.form.handler');
 
         $process = $formHandler->process($user);
         if ($process) {
