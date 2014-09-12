@@ -1,11 +1,15 @@
 {
-    "name": "elwardi/sonata-user-bundle",
+    "name": "digitalmania/sonata-user-bundle",
     "type": "symfony-bundle",
-    "description": "Symfony SonataUserBundle",
-    "keywords": ["user", "sonata", "google authenticator"],
+    "description": "A fork of Symfony SonataUserBundle",
+    "keywords": ["digitalmania", "user", "sonata", "google authenticator"],
     "homepage": "http://sonata-project.org/bundles/user",
     "license": "MIT",
     "authors": [
+	{
+	    "name": "Mourad Majdoub",
+	    "email": "mm@digitalmaniastudio.com"
+	},
         {
             "name": "Thomas Rabaix",
             "email": "thomas.rabaix@sonata-project.org",
