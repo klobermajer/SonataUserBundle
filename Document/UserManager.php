@@ -75,5 +75,4 @@ class UserManager extends BaseUserManager implements UserManagerInterface
         $pager->init();
 
     }
-
 }
